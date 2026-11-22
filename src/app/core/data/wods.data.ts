@@ -3,154 +3,159 @@ import { DayWods } from '../models/wod.model';
 export const WODS_DATA: DayWods = {
   domingo: [
     {
-      titulo: 'Warmup',
-      contenido: `EVERY 1:00 (9:00)
-MIN 1 → :50 Single Unders
-MIN 2 → : 3 Inchworms + 3 Jump to Top of Ring Dip + Slow negative (or 5 Box Dips)
-MIN 3 → 10 Dumbbell Deadlifts + 5 Dumbbell Hang Power Cleans (light)
--repeat for 3 sets-`
-    },
-    {
-      titulo: 'Custom Metcon',
-      contenido: `*5 rounds for time of:*
-50 Double Unders
-15 Ring Dips
-100 ft DB Farmer Carry, 70/45
-5 DB Power Cleans (Heavy)  70/45`
-    },
-    {
-      titulo: 'Accesorio',
-      contenido: `*4 rounds for quality of:*
-15 Banded Good Mornings
-15 Glute Bridges
-Hollow Hold, 45 secs
-*Rest 1 min*`
+      titulo: 'DESCANSO',
+      contenido: `Box Cerrado / Open Box`
     },
   ],
   lunes: [
     {
       titulo: 'Warmup',
       contenido: `*2 ROUNDS*
-5 Kang Squats
-5 Alternating Step Back Lunges (each leg)
-10 Alternating Plank Shoulder Taps
-5 DB Strict Press (light)`
-    },
-    {
-      titulo: 'Weightlifting (Back Squat)',
-      contenido: `6 Back Squats, RPE 7
-*Every 2 mins for 10 mins.*`
-    },
-    {
-      titulo: 'Custom Metcon',
-      contenido: `*EMOM 16*
-1. 250/200 Row
-2. 10 Strict Handstand Push-ups
-3. 20 Dumbbell Goblet Reverse Lunges, 22.5/15
-4.Rest`
-    },
-  ],
-  martes: [
-    {
-      titulo: 'Warmup',
-      contenido: `*2 ROUNDS*
-5 World's Greatest Stretch (each side)
-10 PVC Pass Throughs
-10 PVC Good Mornings
-10 Pogo Hops`
-    },
-    {
-      titulo: 'Weightlifting (Clean and Jerk)',
-      contenido: `5 Power Clean & Jerks
-*Every 2 mins for 10 mins.*
-All 5 Reps must be Touch and Go.
-Start Moderate and Build to Moderate-Heavy (RPE 8)`
-    },
-    {
-      titulo: 'Custom Metcon',
-      contenido: `*For time:*
-10 Box Jumps, 30/24 in
-50 Deadlifts, 52.5/35
-10 Box Jumps, 30/24 in
-40 Hang Power Cleans, 52.5/35
-10 Box Jumps, 30/24 in
-30 Shoulder-to-Overheads, 52.5/35
-10 Box Jumps, 30/24 in
-20 Power Clean & Jerks, 52.5/35
-10 Box Jumps, 30/24 in
-*Time cap: 20 mins*`
-    },
-  ],
-  miercoles: [
-    {
-      titulo: 'Warmup',
-      contenido: `2:00 Cardio
-Banded 7s
-10 Hip Halos (each direction)
-:20 Hollow Hold
-:20 Superman Hold
-Barbara
-5 Rounds For Time
-20 PullUps
-30 Push-Ups
-40 Sit-Ups
-50 Air Squats
-3 Minutes Rest
-Time each round. Score is total time to complete the workout.`
-    },
-  ],
-  jueves: [
-    {
-      titulo: 'Warmup',
-      contenido: `*2 Rounds*
-6 Up Downs
-10 Roll and Reach
-10 Banded Pull Aparts
-10 Glute Bridges
-20 Single Unders`
-    },
-    {
-      titulo: 'Skill',
-      contenido: `*ON A 10:00 CLOCK*
-Triple Under, Double Under, or Single Under Practice
-Freedom (Advanced) - Triple Under Practice
-Independence (Intermediate) - Double Unders or Crossover Singles Practice
-Liberty (Beginner) - Single Under or Crossover Single Practice`
-    },
-    {
-      titulo: 'Custom Metcon',
-      contenido: `*For time:*
-*4 Rounds*
-50 Double Unders
-15 Wall Balls 20/14
-15 Box Jumps Overs
-15 Kettle Swings
-*Time cap: 16 mins*`
-    },
-  ],
-  viernes: [
-    {
-      titulo: 'Warmup',
-      contenido: `*2 ROUNDS*
-10 Glute Bridges (Squeeze at the Top)
-8 Alternating World's Greatest Stretch
-10 Banded Good Mornings
-10 Bird Dogs
-:20 Dead Bug Hold`
+10 Alternating Samson Lunges
+10 Alternating Toe Touches (standing, opposite hand to foot)
+10 Good Mornings (hands behind head)
+10 Air Squats (controlled, full ROM)`
     },
     {
       titulo: 'Weightlifting (Deadlift)',
-      contenido: `Deadlift 8-8-8
+      contenido: `Deadlift 6-6-6
 Use the heaviest weight you can for each set.
 Rest as needed between sets.`
     },
     {
       titulo: 'Custom Metcon',
       contenido: `*For time:*
-21-15-9-6-3
-Lateral Burpee Over Dumbbells
-Alternating Dumbbell Snatches, 32.5/22.5
-*Time cap: 12 mins*`
+*EMOM 16*
+1. 15/12 Cal Row
+2. 15 Kettlebell Swings, 24/16
+3. Max Air Squats
+4. Rest`
+    },
+  ],
+  martes: [
+    {
+      titulo: 'Warmup',
+      contenido: `20m A-Skips
+20m High Knees
+20m Butt Kicks
+then into
+*2 ROUNDS*
+1 min Cardio
+5 Ring Rows
+5 Push Ups (Athlete's Level)`
+    },
+    {
+      titulo: 'Custom Metcon',
+      contenido: `*For time:*
+100 x 50ft Shuttle Runs or 1 Mile Run
+50 Strict Pull-ups
+100 Push-ups
+*Time cap: 26 mins*
+They can break up the repetitions as needed to complete the work.`
+    },
+    {
+      titulo: 'Skill',
+      contenido: `For quality:
+Handstand Hold, 1:30
+Elbow Plank Hold, 1:30
+Top Ring Dip Hold, 1:30
+Handstand Hold, 1 min
+Elbow Plank Hold, 1 min
+Top Ring Dip Hold, 1 min
+Handstand Hold, 30 secs
+Elbow Plank Hold, 30 secs
+Top Ring Dip Hold, 30 secs`
+    },
+  ],
+  miercoles: [
+    {
+      titulo: 'Warmup',
+      contenido: `2:00 Jump Rope (easy singles, mixing in doubles)
+Then Into...
+*2 ROUNDS*
+5 Inchworms with a Push Up
+10 PVC Pass Throughs
+10 PVC Good Mornings
+5 Hanging Knee Raises`
+    },
+    {
+      titulo: 'Weightlifting (Clean and Jerk)',
+      contenido: `*Complete as-*
+EVERY 1:00 (5:00)
+5 Power Clean and Jerk (light)
+-straight into-
+EVERY 1:00 (5:00)
+3 Power Clean and Jerk (moderate)
+-straight into-
+EVERY :30 (5:00)
+1 Power Clean and Jerk (heavy)
+All reps for all lifts today are meant to be 'touch and go'.`
+    },
+    {
+      titulo: 'Custom Metcon (Reps)',
+      contenido: `Complete as many rounds as possible in 9 mins of:
+36 Double Unders
+12 Push Press, 52.5/35
+9 Toes-to-bars`
+    },
+  ],
+  jueves: [
+    {
+      titulo: 'Warmup',
+      contenido: `*2 ROUNDS*
+5 Air Squats
+5 Light Wall Balls
+5 Up Downs
+:30 Easy Row`
+    },
+    {
+      titulo: 'Custom Metcon',
+      contenido: `*5 rounds for time of:*
+26 Wall Balls, 20/14 lbs
+26 Burpees
+26 Air Squats
+26 Pull Ups`
+    },
+    {
+      titulo: 'Accesorio',
+      contenido: `*4 rounds for quality of:*
+24 Dumbbell Leaning Lateral Raises,  RPE 7-8
+12 Seated Dumbbell Reverse Flies,  RPE 7-8
+*Rest 1 min*`
+    },
+  ],
+  viernes: [
+    {
+      titulo: 'Warmup',
+      contenido: `*2 ROUNDS*
+10 PVC Pass Throughs
+8 Roll and Reach
+6 Deadbugs
+4 Inchworms
+Then into (If time allows) …
+3 ROUNDS WITH A PVC
+5 Down & Up
+5 Elbows High & Outside
+5 Muscle Snatch
+5 Snatch Lands (2in catch)
+*After, put the PVC pipes away and grab an empty barbell.`
+    },
+    {
+      titulo: 'Custom Metcon',
+      contenido: `5 rounds, 1 min per station, for max reps of:
+Power Snatch,  70/47.5
+Calorie Row
+V-Ups
+*Rest 1 min*
+Rotate immediately to the next station every 1 min,
+the clock does not stop or reset between stations.`
+    },
+    {
+      titulo: 'Skill',
+      contenido: `*Complete in teams of 3.*
+As many reps as possible in 12 mins of:
+Bench Press
+Athletes must use the same weight used in the workout. Switch as needed for the full 12 mins.`
     },
   ],
   sabado: [
@@ -158,26 +163,26 @@ Alternating Dumbbell Snatches, 32.5/22.5
       titulo: 'Warmup',
       contenido: `*2 ROUNDS*
 10 Air Squats
-5/Side Worlds Greatest Stretch
-10 PVC or Banded Good Mornings
-5 Push Up into Downward Dog
-10 Scapular Pull Ups (slow and controlled)`
+10 Good Mornings
+10 Box Step-Ups (5/side)
+10 Glute Bridges
+10 Dead Bugs (5/side)
+5 Broad Jumps (reset between reps)`
+    },
+    {
+      titulo: 'Weightlifting (Back Squat)',
+      contenido: `Back Squat 1x1
+Use the heaviest weight you can for the set.
+*ON A 12:00 CLOCK...*
+Build up to a Heavy 1-Rep Back Squat`
     },
     {
       titulo: 'Custom Metcon',
-      contenido: `*4 rounds for time of:*
-*Teams of 2.*
-4 Rope Climbs / 20 Strict Pull-ups
-40 Wall Balls, 20/14 lbs
-400 m Partner Run ( together)`
-    },
-    {
-      titulo: 'Accesorio',
-      contenido: `*4 rounds for quality of:*
-20 Calf Raises
-20 Banded Chest Flies
-Hollow Hold, 45 secs
-*Rest 1 min*`
+      contenido: `*5 rounds for time of:*
+7 Back Squats, 102.5/70
+14 Box Jump Overs, 20 in
+21 Sit-ups
+Complete in teams of 2; 5 rounds each; you go-I go fashion.`
     },
   ],
 };
