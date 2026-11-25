@@ -89,10 +89,10 @@ app-tv-container {
   }
 
   .bg-logo {
-    width: 100px !important;
-    top: 10px !important;
-    right: 10px !important;
-    opacity: 0.15 !important;
+    width: 140px !important;
+    top: 12px !important;
+    right: 12px !important;
+    opacity: 0.35 !important;
   }
 
   .nav-buttons {

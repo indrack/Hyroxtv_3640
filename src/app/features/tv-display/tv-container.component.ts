@@ -19,7 +19,7 @@ import { RemoteControlService } from '../../core/services/remote-control.service
   ],
   template: `
     <div class="tv-container">
-      <img src="logo.png" class="bg-logo" alt="Logo CrossFit">
+      <img src="logo.png" class="bg-logo" alt="Logo Hyrox 3640">
 
       <app-header-clock></app-header-clock>
 
@@ -67,12 +67,13 @@ import { RemoteControlService } from '../../core/services/remote-control.service
 
     .bg-logo {
       position: absolute;
-      top: 30px;
-      right: 40px;
-      width: 210px;
-      opacity: 0.3;
+      top: 35px;
+      right: 45px;
+      width: 320px;
+      opacity: 0.4;
       pointer-events: none;
       z-index: 0;
+      filter: drop-shadow(0 0 12px rgba(0, 163, 255, 0.25));
     }
 
     .nav-buttons {
