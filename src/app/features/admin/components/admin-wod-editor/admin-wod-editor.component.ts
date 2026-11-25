@@ -175,7 +175,7 @@ export class AdminWodEditorComponent implements OnInit {
       .then(async () => {
         this.isPublishing.set(false);
         this.statusMsg.set(`¡WOD PUBLICADO CON ÉXITO EN ${this.selectedLocation.toUpperCase()}!`);
-        this.statusColor.set('#ff0000');
+        this.statusColor.set('#00A3FF');
         this.clearDraft();
         const locationName = this.selectedLocation === 'miraflores' ? 'TV Miraflores' : 'TV Calacoto';
         const modeLabel = this.selectedMode === 'new' ? 'Nueva rutina' : 'Añadir bloques';

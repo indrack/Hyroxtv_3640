@@ -87,8 +87,8 @@ export class AdminWeeklyManagerComponent implements OnInit {
     if (t.includes('strength') || t.includes('weightlifting') || t.includes('fuerza') || t.includes('deadlift') || t.includes('clean') || t.includes('snatch') || t.includes('squat')) {
       return { label: 'STRENGTH', color: '#3366ff', bg: 'rgba(51, 102, 255, 0.2)' };
     }
-    if (t.includes('metcon') || t.includes('wod') || t.includes('elizabeth') || t.includes('amrap') || t.includes('tiempo') || t.includes('reps') || t.includes('rondas') || t.includes('fortime') || t.includes('for time')) {
-      return { label: 'METCON', color: '#ff0000', bg: 'rgba(255, 0, 0, 0.2)' };
+    if (t.includes('metcon') || t.includes('wod') || t.includes('hyrox') || t.includes('elizabeth') || t.includes('amrap') || t.includes('tiempo') || t.includes('reps') || t.includes('rondas') || t.includes('fortime') || t.includes('for time')) {
+      return { label: 'HYROX / WOD', color: '#00A3FF', bg: 'rgba(0, 163, 255, 0.2)' };
     }
     if (t.includes('accesorio') || t.includes('finisher') || t.includes('accessory') || t.includes('quality') || t.includes('core')) {
       return { label: 'ACCESORIO', color: '#00cc66', bg: 'rgba(0, 204, 102, 0.2)' };

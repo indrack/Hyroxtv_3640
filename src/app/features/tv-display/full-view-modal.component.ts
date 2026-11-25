@@ -46,7 +46,7 @@ import { WodService } from '../../core/services/wod.service';
       font-weight: bold;
     }
 
-    .mode-mira { color: #ff0000; }
+    .mode-mira { color: #00A3FF; }
     .mode-cala { color: #39ff14; }
     .mode-girls { color: #ff00d4; }
 
@@ -57,9 +57,9 @@ import { WodService } from '../../core/services/wod.service';
 
     .full-section h3 {
       font-size: 3em;
-      color: #ff0000;
+      color: #00A3FF;
       margin-bottom: 10px;
-      text-shadow: 0px 0px 20px rgba(255, 0, 0, 0.6);
+      text-shadow: 0px 0px 20px rgba(0, 163, 255, 0.6);
       text-align: left;
     }
 
@@ -74,6 +74,18 @@ import { WodService } from '../../core/services/wod.service';
       font-weight: 900;
       color: #ffffff;
       text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    }
+
+    :host ::ng-deep .highlight-weight {
+      color: #FFE600;
+      font-weight: 800;
+      text-shadow: 0 0 10px rgba(255, 230, 0, 0.4);
+    }
+
+    :host ::ng-deep .highlight-rounds {
+      color: #D0EFFF;
+      font-weight: 800;
+      text-shadow: 0 0 10px rgba(0, 163, 255, 0.3);
     }
 
     #full-view-container::-webkit-scrollbar {

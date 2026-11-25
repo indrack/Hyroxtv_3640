@@ -15,7 +15,7 @@
 .admin-logo {
   width: 150px;
   margin: 20px 0;
-  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.5));
+  filter: drop-shadow(0 0 10px rgba(0, 163, 255, 0.5));
 }
 
 .admin-container {
@@ -27,7 +27,7 @@
   border: 1px solid #333;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 163, 255, 0.2);
 }
 
 .editor-container {
@@ -35,9 +35,9 @@
 }
 
 .neon-title {
-  color: #ff0000;
+  color: #00A3FF;
   margin-bottom: 20px;
-  text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  text-shadow: 0 0 10px rgba(0, 163, 255, 0.4);
 }
 
 .input-group {
@@ -68,8 +68,8 @@ input, textarea, select {
 }
 
 input:focus, textarea:focus, select:focus {
-  border-color: #ff0000;
-  box-shadow: 0 0 8px rgba(255, 0, 0, 0.4);
+  border-color: #00A3FF;
+  box-shadow: 0 0 8px rgba(0, 163, 255, 0.4);
 }
 
 textarea {
@@ -94,7 +94,7 @@ textarea {
 .btn-action {
   width: 100%;
   padding: 15px;
-  background: #ff0000;
+  background: #00A3FF;
   color: #fff;
   font-weight: bold;
   border: none;
@@ -107,8 +107,8 @@ textarea {
 }
 
 .btn-action:hover:not(:disabled) {
-  background: #cc0000;
-  box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+  background: #0088dd;
+  box-shadow: 0 0 15px rgba(0, 163, 255, 0.4);
 }
 
 .btn-secondary {
@@ -138,7 +138,7 @@ textarea {
 }
 
 .selection-card:hover {
-  border-color: #ff0000;
+  border-color: #00A3FF;
   background: #0a0a0a;
   transform: scale(1.02);
 }
@@ -147,7 +147,7 @@ textarea {
 .selection-card p { margin: 0; color: #888; font-size: 0.9em; }
 
 .selected-label, .editor-label {
-  color: #ff0000;
+  color: #00A3FF;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -172,7 +172,7 @@ textarea {
   background: #111;
   padding: 10px;
   border-radius: 5px;
-  border-left: 3px solid #ff0000;
+  border-left: 3px solid #00A3FF;
 }
 
 .slide-block {
@@ -506,9 +506,9 @@ textarea {
 }
 
 .sim-context-tag {
-  background: rgba(255, 0, 0, 0.2);
-  border: 1px solid #ff0000;
-  color: #ff4444;
+  background: rgba(0, 163, 255, 0.2);
+  border: 1px solid #00A3FF;
+  color: #00A3FF;
   font-size: 0.75em;
   font-weight: bold;
   padding: 2px 7px;
@@ -657,13 +657,13 @@ textarea {
 }
 
 .sim-wod-title {
-  color: #ff0000;
+  color: #00A3FF;
   font-size: 1.7em;
   font-weight: 900;
   margin: 0 0 10px 0;
   text-transform: uppercase;
-  text-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
-  border-bottom: 2px solid #333;
+  text-shadow: 0 0 15px rgba(0, 163, 255, 0.6);
+  border-bottom: 2px solid rgba(0, 163, 255, 0.4);
   display: inline-block;
   padding-bottom: 2px;
 }
@@ -692,15 +692,15 @@ textarea {
 }
 
 .sim-wod-text .highlight-weight {
-  color: #39ff14;
+  color: #FFE600;
   font-weight: 800;
-  text-shadow: 0 0 8px rgba(57, 255, 20, 0.4);
+  text-shadow: 0 0 8px rgba(255, 230, 0, 0.5);
 }
 
 .sim-wod-text .highlight-rounds {
-  color: #e0f3f5;
+  color: #D0EFFF;
   font-weight: 800;
-  text-shadow: 0 0 8px rgba(150, 146, 146, 0.4);
+  text-shadow: 0 0 8px rgba(0, 163, 255, 0.35);
 }
 
 .sim-celebration-banner {
@@ -787,10 +787,10 @@ textarea {
 }
 
 .sim-dot-pill.active {
-  background: #ff0000;
+  background: #00A3FF;
   color: #fff;
-  border-color: #ff0000;
-  box-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
+  border-color: #00A3FF;
+  box-shadow: 0 0 8px rgba(0, 163, 255, 0.5);
   transform: scale(1.15);
 }
 

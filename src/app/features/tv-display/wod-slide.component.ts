@@ -39,12 +39,12 @@ import { TvAutoScaleDirective } from '../../core/directives/tv-auto-scale.direct
 
     .content-wrapper h3 {
       font-size: 4.8em;
-      color: #ff0000;
+      color: #00A3FF;
       margin-bottom: 0.3em;
       text-transform: uppercase;
-      border-bottom: 4px solid #333;
+      border-bottom: 4px solid rgba(0, 163, 255, 0.4);
       display: inline-block;
-      text-shadow: 0px 0px 20px rgba(255, 0, 0, 0.6);
+      text-shadow: 0px 0px 22px rgba(0, 163, 255, 0.7);
     }
 
     .content-wrapper p {
@@ -73,15 +73,15 @@ import { TvAutoScaleDirective } from '../../core/directives/tv-auto-scale.direct
     }
 
     :host ::ng-deep .highlight-weight {
-      color: #39ff14;
+      color: #FFE600;
       font-weight: 800;
-      text-shadow: 0 0 10px rgba(57, 255, 20, 0.4);
+      text-shadow: 0 0 12px rgba(255, 230, 0, 0.5);
     }
 
     :host ::ng-deep .highlight-rounds {
-      color: #e0f3f5ff;
+      color: #D0EFFF;
       font-weight: 800;
-      text-shadow: 0 0 10px rgba(150, 146, 146, 0.4);
+      text-shadow: 0 0 10px rgba(0, 163, 255, 0.35);
     }
   `]
 })
