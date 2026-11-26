@@ -11,8 +11,8 @@ export const environment = {
   },
   adminUids: {
     superAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2'],
-    weeklyAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2'],
-    celebrationAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2']
+    weeklyAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2', 'Qib36ZopumZZ7xcVviIbGrrcila2'],
+    celebrationAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2', 'Qib36ZopumZZ7xcVviIbGrrcila2']
   }
 };
 
