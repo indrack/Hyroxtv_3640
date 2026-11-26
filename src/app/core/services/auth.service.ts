@@ -4,9 +4,9 @@ import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged, setPe
 import { FIREBASE_CONFIG } from '../config/firebase.config';
 import { AuditLogService } from './audit-log.service';
 import { environment } from '../../../environments/environment';
-const SUPER_ADMIN_UIDS: readonly string[] = ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3'];
-const WEEKLY_ADMIN_UIDS: readonly string[] = ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3', '2qCO5Z07nXNkWft4od26Mdw73x42'];
-const CELEBRATION_ADMIN_UIDS: readonly string[] = ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3'];
+const SUPER_ADMIN_UIDS: readonly string[] = ['9RFu9tPJQgXQ3dpruoMixqHDCld2'];
+const WEEKLY_ADMIN_UIDS: readonly string[] = ['9RFu9tPJQgXQ3dpruoMixqHDCld2'];
+const CELEBRATION_ADMIN_UIDS: readonly string[] = ['9RFu9tPJQgXQ3dpruoMixqHDCld2'];
 
 const STORAGE_KEY_ATTEMPTS = 'wod_auth_remaining_attempts';
 const STORAGE_KEY_LOCKOUT_UNTIL = 'wod_auth_lockout_until';

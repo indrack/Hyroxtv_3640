@@ -24,7 +24,8 @@ jobs:
           FILE="backups/wod_backup_${DATE_STR}.json"
 
           # Descargar nodo público weeklyWods
-          curl -s "https://crosssfit--3640-tv-default-rtdb.firebaseio.com/weeklyWods.json" > "$FILE"
+          DB_URL="${{ secrets.FIREBASE_DATABASE_URL || 'https://hyrox-by-3640-default-rtdb.firebaseio.com' }}"
+          curl -s "${DB_URL%/}/weeklyWods.json" > "$FILE"
 
           # Validar que no contenga error de permisos ni esté vacío
           if grep -q '"error"' "$FILE" || [ ! -s "$FILE" ]; then

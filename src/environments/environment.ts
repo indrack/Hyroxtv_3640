@@ -10,9 +10,9 @@ export const environment = {
     appId: "1:908256000888:web:09e4bffb19519b8784668d"
   },
   adminUids: {
-    superAdmin: ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3'],
-    weeklyAdmin: ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3', '2qCO5Z07nXNkWft4od26Mdw73x42'],
-    celebrationAdmin: ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3']
+    superAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2'],
+    weeklyAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2'],
+    celebrationAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2']
   }
 };
 

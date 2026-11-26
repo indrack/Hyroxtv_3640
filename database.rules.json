@@ -10,19 +10,19 @@
     },
     "weeklyWods": {
       ".read": true,
-      ".write": "auth != null && (auth.token.email == 'admincross@gmail.com' || auth.token.email == 'asvins25@gmail.com')"
+      ".write": "auth != null && (auth.uid == '9RFu9tPJQgXQ3dpruoMixqHDCld2' || auth.token.email == 'asvins25@gmail.com')"
     },
     "weeklyWodsWGirls": {
       ".read": true,
-      ".write": "auth != null && (auth.token.email == 'admincross@gmail.com' || auth.token.email == 'asvins25@gmail.com')"
+      ".write": "auth != null && (auth.uid == '9RFu9tPJQgXQ3dpruoMixqHDCld2' || auth.token.email == 'asvins25@gmail.com')"
     },
     "celebrationConfig": {
       ".read": true,
-      ".write": "auth != null && auth.token.email == 'asvins25@gmail.com'"
+      ".write": "auth != null && (auth.uid == '9RFu9tPJQgXQ3dpruoMixqHDCld2' || auth.token.email == 'asvins25@gmail.com')"
     },
     "classSchedule": {
       ".read": true,
-      ".write": "auth != null && (auth.token.email == 'admincross@gmail.com' || auth.token.email == 'asvins25@gmail.com')"
+      ".write": "auth != null && (auth.uid == '9RFu9tPJQgXQ3dpruoMixqHDCld2' || auth.token.email == 'asvins25@gmail.com')"
     },
     "activityLogs": {
       ".read": "auth != null",

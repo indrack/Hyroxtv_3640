@@ -49,10 +49,10 @@ jobs:
           APP_ID="${{ secrets.FIREBASE_APP_ID }}"
 
           if [ -z "$API_KEY" ]; then API_KEY="AIzaSyCC3idHLHcFFcGOAbdJGtuWYsrV0PFf8Oc"; fi
-          if [ -z "$AUTH_DOMAIN" ]; then AUTH_DOMAIN="crosssfit--3640-tv.firebaseapp.com"; fi
-          if [ -z "$DB_URL" ]; then DB_URL="https://crosssfit--3640-tv-default-rtdb.firebaseio.com"; fi
-          if [ -z "$PROJECT_ID" ]; then PROJECT_ID="crosssfit--3640-tv"; fi
-          if [ -z "$STORAGE_BUCKET" ]; then STORAGE_BUCKET="crosssfit--3640-tv.firebasestorage.app"; fi
+          if [ -z "$AUTH_DOMAIN" ]; then AUTH_DOMAIN="hyrox-by-3640.firebaseapp.com"; fi
+          if [ -z "$DB_URL" ]; then DB_URL="https://hyrox-by-3640-default-rtdb.firebaseio.com"; fi
+          if [ -z "$PROJECT_ID" ]; then PROJECT_ID="hyrox-by-3640"; fi
+          if [ -z "$STORAGE_BUCKET" ]; then STORAGE_BUCKET="hyrox-by-3640.firebasestorage.app"; fi
           if [ -z "$MESSAGING_SENDER_ID" ]; then MESSAGING_SENDER_ID="908256000888"; fi
           if [ -z "$APP_ID" ]; then APP_ID="1:908256000888:web:09e4bffb19519b8784668d"; fi
 
@@ -70,9 +70,9 @@ jobs:
               appId: "$APP_ID"
             },
             adminUids: {
-              superAdmin: ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3'],
-              weeklyAdmin: ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3', '2qCO5Z07nXNkWft4od26Mdw73x42'],
-              celebrationAdmin: ['LCjGIWZSlKUfEjBEZ2OgMYEd7HH3']
+              superAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2'],
+              weeklyAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2'],
+              celebrationAdmin: ['9RFu9tPJQgXQ3dpruoMixqHDCld2']
             }
           };
           EOF

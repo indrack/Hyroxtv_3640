@@ -55,7 +55,7 @@ jobs:
           CROSSHERO_PASSWORD: ${{ secrets.CROSSHERO_PASSWORD }}
           WOD_TV_ADMIN_EMAIL: ${{ secrets.WOD_TV_ADMIN_EMAIL }}
           WOD_TV_ADMIN_PASSWORD: ${{ secrets.WOD_TV_ADMIN_PASSWORD }}
-          FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL || 'https://crosssfit--3640-tv-default-rtdb.firebaseio.com' }}
+          FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL || 'https://hyrox-by-3640-default-rtdb.firebaseio.com' }}
         run: |
           # Si se ejecuta automáticamente por cron los domingos: publicar semana siguiente
           if [ "${{ github.event_name }}" = "schedule" ]; then

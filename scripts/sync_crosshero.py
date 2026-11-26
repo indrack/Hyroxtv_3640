@@ -470,7 +470,7 @@ def publish_to_wod_tv(weekly_result, admin_email, admin_password):
     import requests
 
     api_key = os.environ.get("FIREBASE_API_KEY", "AIzaSyCC3idHLHcFFcGOAbdJGtuWYsrV0PFf8Oc")
-    db_url = os.environ.get("FIREBASE_DATABASE_URL", "https://crosssfit--3640-tv-default-rtdb.firebaseio.com").rstrip("/")
+    db_url = os.environ.get("FIREBASE_DATABASE_URL", "https://hyrox-by-3640-default-rtdb.firebaseio.com").rstrip("/")
 
     print(f"\n🔐 [3/3] Autenticando en WOD-TV como Administrador ({admin_email})...")
     auth_url = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={api_key}"
