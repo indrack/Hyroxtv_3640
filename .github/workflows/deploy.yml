@@ -20,11 +20,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -82,7 +79,6 @@ jobs:
         run: npx ng build --configuration production --base-href /${{ github.event.repository.name }}/
 
       - name: Prepare GitHub Pages Files (.nojekyll & 404.html)
-        id: output_path
         run: |
           if [ -d "./dist/wod-tv-angular/browser" ]; then
             TARGET_PATH="./dist/wod-tv-angular/browser"
@@ -98,13 +94,23 @@ jobs:
             cp "$TARGET_PATH/index.html" "$TARGET_PATH/404.html"
           fi
           
-          echo "BUILD_PATH=$TARGET_PATH" >> $GITHUB_ENV
+          echo "FINAL_PATH=$TARGET_PATH" >> $GITHUB_ENV
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.BUILD_PATH }}
+          path: ${{ env.FINAL_PATH }}
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
